@@ -2,34 +2,40 @@
 
 ## Project Overview
 
-The **React ToDo App** is a simple and user-friendly task management application built using **React.js**. It allows users to add tasks, mark them as completed or pending, and delete tasks when they are no longer needed. The application uses the **localStorage** of the web browser to save the task list, ensuring persistence even after refreshing or reopening the browser.
+The **React ToDo App** is a lightweight, intuitive task manager built using **React.js**. It allows users to create, complete, and delete tasks easily. All tasks are saved using the browser's **localStorage**, ensuring your data remains intact even after closing or refreshing the browser.
+
+---
+
+## 🌐 Live Demo
+
+🔗 [Click here to view the live app](https://todo-app-alpha-liard.vercel.app/)
 
 ---
 
 ## 🎯 Main Goal
 
-The main objective of this project is to help users efficiently manage their daily tasks. It demonstrates how to build a fully functional React app with state management and persistent data storage using the browser’s **localStorage API**.
+To provide users with a simple and effective tool to manage daily tasks, while also showcasing React fundamentals like component-based architecture, state management, and local storage persistence.
 
 ---
 
 ## ✅ Key Features
 
-- **Add Task**: Enter and save new tasks to your to-do list.
-- **Mark as Completed/Pending**: Toggle task status with a single click.
-- **Delete Task**: Remove tasks that are completed or no longer relevant.
-- **Persistent Storage**: Automatically saves tasks in local storage so your data stays intact on browser refresh or reopen.
-- **Clean UI**: Simple and responsive user interface built with React.
+- **Add Tasks**: Easily add new to-dos.
+- **Mark as Completed/Pending**: Click to toggle task status.
+- **Delete Tasks**: Remove completed or unnecessary tasks.
+- **Local Storage Integration**: Tasks persist even after refreshing or reopening the browser.
+- **Responsive Design**: Clean and accessible UI that works across devices.
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer       | Technology  |
-|-------------|-------------|
-| Frontend    | React.js    |
-| Styling     | CSS         |
-| State Mgmt  | React useState + useEffect |
-| Persistence | localStorage (Web API)     |
+| Layer        | Technology      |
+|--------------|-----------------|
+| Frontend     | React.js        |
+| Styling      | CSS             |
+| State Mgmt   | React (useState, useEffect) |
+| Data Storage | localStorage (Web API) |
 
 ---
 
@@ -37,11 +43,11 @@ The main objective of this project is to help users efficiently manage their dai
 
 ### Prerequisites
 
-- Node.js (v14 or later)
+- Node.js (v14 or higher)
 - npm or yarn
 
-### Installation Steps
+### Installation
 
-1. **Clone the Repository**
+1. **Clone the repository**
 ```bash
 git clone https://github.com/yourusername/react-todo-app.git
