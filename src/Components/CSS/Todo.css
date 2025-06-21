@@ -1,38 +1,40 @@
 .todo {
-    width: 600px;
+    width: 90%;
+    max-width: 600px;
     min-height: 732px;
     border-radius: 20px;
     background: #fff;
     margin: auto;
-    margin-top: 174px;
+    margin-top: 5%;
     display: flex;
     flex-direction: column;
-    padding: 0px 44px;
+    padding: 0px 5%;
     padding-bottom: 30px;
     margin-bottom: 100px;
 }
 
-.todo-header{
-    margin-top: 84px;
+.todo-header {
+    margin-top: 15%;
     color: #002765;
     font-size: 36px;
     font-weight: 600;
     line-height: 34px;
 }
 
-.todo-add{
+.todo-add {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 45px;
+    flex-wrap: wrap;
 }
 
-.todo-input{
+.todo-input {
     border-radius: 50px;
     background: #edeef0;
-    border:none;
+    border: none;
     outline: none;
-    width: 576px;
+    width: 100%;
     height: 80px;
     padding-left: 35px;
     font-size: 20px;
@@ -51,4 +53,68 @@
     font-size: 26px;
     font-weight: 600;
     cursor: pointer;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .todo {
+        width: 85%;
+        min-height: auto;
+        padding-bottom: 20px;
+        margin-top: 10%;
+    }
+    
+    .todo-header {
+        margin-top: 10%;
+        font-size: 28px;
+    }
+    
+    .todo-add {
+        margin-top: 30px;
+    }
+    
+    .todo-input {
+        height: 60px;
+        font-size: 16px;
+    }
+    
+    .todo-add-btn {
+        height: 60px;
+        font-size: 20px;
+        margin-left: -80px;
+        width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .todo {
+        width: 90%;
+        padding: 0px 20px;
+        padding-bottom: 20px;
+        margin-top: 15%;
+    }
+    
+    .todo-header {
+        margin-top: 15%;
+        font-size: 24px;
+    }
+    
+    .todo-add {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    .todo-input {
+        height: 50px;
+        font-size: 14px;
+        padding-left: 20px;
+    }
+    
+    .todo-add-btn {
+        height: 50px;
+        font-size: 18px;
+        margin-left: 0;
+        margin-top: 15px;
+        width: 100%;
+    }
 }
